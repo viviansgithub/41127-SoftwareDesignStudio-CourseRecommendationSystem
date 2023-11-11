@@ -1,0 +1,494 @@
+[
+    {
+        "name": "Introduction to Programming",
+        "features": [
+            "Interactive lectures",
+            "Hands-on projects",
+            "Quizzes and assessments"
+        ]
+    },
+    {
+        "name": "Digital Marketing Fundamentals",
+        "features": [
+            "Video tutorials",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Data Science for Beginners",
+        "features": [
+            "Expert guest speakers",
+            "Real-world case studies",
+            "Practice exercises"
+        ]
+    },
+    {
+        "name": "Web Development Bootcamp",
+        "features": [
+            "Coding challenges",
+            "Live webinars",
+            "Community support"
+        ]
+    },
+    {
+        "name": "Graphic Design Mastery",
+        "features": [
+            "Multimedia content",
+            "Interactive exercises"
+        ]
+    },
+    {
+        "name": "Entrepreneurship 101",
+        "features": [
+            "Real-world case studies",
+            "Group projects",
+            "Career guidance"
+        ]
+    },
+    {
+        "name": "Machine Learning Essentials",
+        "features": [
+            "Self-paced learning",
+            "Online simulations",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Advanced JavaScript Programming",
+        "features": [
+            "Video tutorials",
+            "Coding challenges",
+            "Peer mentoring"
+        ]
+    },
+    {
+        "name": "Financial Management Strategies",
+        "features": [
+            "Expert Q&A sessions",
+            "Group discussions"
+        ]
+    },
+    {
+        "name": "Digital Photography Workshop",
+        "features": [
+            "Interactive dashboards",
+            "Live streaming sessions"
+        ]
+    },
+    {
+        "name": "Artificial Intelligence in Healthcare",
+        "features": [
+            "Research opportunities",
+            "Group brainstorming"
+        ]
+    },
+    {
+        "name": "Project Management Fundamentals",
+        "features": [
+            "Career guidance",
+            "Code reviews"
+        ]
+    },
+    {
+        "name": "Creative Writing Techniques",
+        "features": [
+            "Self-assessment tools",
+            "Community support"
+        ]
+    },
+    {
+        "name": "Social Media Marketing Mastery",
+        "features": [
+            "Mobile compatibility",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Chemistry Laboratory Skills",
+        "features": [
+            "Access to additional resources",
+            "Practical toolkits"
+        ]
+    },
+    {
+        "name": "Leadership and Communication",
+        "features": [
+            "Group discussions",
+            "Goal-setting tools"
+        ]
+    },
+    {
+        "name": "3D Modeling and Animation",
+        "features": [
+            "Interactive exercises",
+            "Gamification elements"
+        ]
+    },
+    {
+        "name": "Environmental Science and Sustainability",
+        "features": [
+            "Cross-platform compatibility",
+            "Goal achievement tracking"
+        ]
+    },
+    {
+        "name": "Psychology of Well-being",
+        "features": [
+            "Self-assessment quizzes",
+            "Resource libraries"
+        ]
+    },
+    {
+        "name": "Data Analysis with Python",
+        "features": [
+            "Coding challenges",
+            "Interactive timelines"
+        ]
+    },
+    {
+        "name": "Music Production Masterclass",
+        "features": [
+            "Advanced analytics",
+            "Access to research papers"
+        ]
+    },
+    {
+        "name": "Public Speaking Confidence",
+        "features": [
+            "Interactive lectures",
+            "Live streaming sessions",
+            "Learning pathways"
+        ]
+    },
+    {
+        "name": "Introduction to Robotics",
+        "features": [
+            "Virtual reality experiences",
+            "Gamification elements",
+            "Community support"
+        ]
+    },
+    {
+        "name": "History of Ancient Civilizations",
+        "features": [
+            "Cross-disciplinary content",
+            "Instant chat support"
+        ]
+    },
+    {
+        "name": "Spanish Language Immersion",
+        "features": [
+            "Language translation tools",
+            "Microlearning modules"
+        ]
+    },
+    {
+        "name": "Fitness and Nutrition Essentials",
+        "features": [
+            "Competency assessments",
+            "Course notifications"
+        ]
+    },
+    {
+        "name": "Introduction to Artificial Neural Networks",
+        "features": [
+            "Learning analytics",
+            "Access to research papers"
+        ]
+    },
+    {
+        "name": "Creative Entrepreneurship",
+        "features": [
+            "Collaborative brainstorming",
+            "Goal achievement tracking"
+        ]
+    },
+    {
+        "name": "Blockchain Technology Fundamentals",
+        "features": [
+            "Self-assessment tests",
+            "Learning pathways"
+        ]
+    },
+    {
+        "name": "Environmental Conservation Strategies",
+        "features": [
+            "Online quizzes",
+            "Resource libraries"
+        ]
+    },
+    {
+        "name": "Fashion Design and Styling",
+        "features": [
+            "Interactive dashboards",
+            "Peer mentoring"
+        ]
+    },
+    {
+        "name": "Cryptocurrency Investing",
+        "features": [
+            "Advanced analytics",
+            "Access to additional resources"
+        ]
+    },
+    {
+        "name": "Introduction to Astrophysics",
+        "features": [
+            "Real-world case studies",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Creative Coding with Processing",
+        "features": [
+            "Interactive lectures",
+            "Hands-on projects",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Psychology of Happiness",
+        "features": [
+            "Self-reflection journals",
+            "Competency assessments"
+        ]
+    },
+    {
+        "name": "Ethical Hacking and Cybersecurity",
+        "features": [
+            "Interactive exercises",
+            "Code reviews"
+        ]
+    },
+    {
+        "name": "Photography Composition Techniques",
+        "features": [
+            "Multimedia content",
+            "Access to additional resources"
+        ]
+    },
+    {
+        "name": "Digital Art and Illustration",
+        "features": [
+            "Career guidance",
+            "Live webinars"
+        ]
+    },
+    {
+        "name": "Introduction to Economics",
+        "features": [
+            "Interactive timelines",
+            "Career guidance"
+        ]
+    },
+    {
+        "name": "Mobile App Development for Android",
+        "features": [
+            "Coding challenges",
+            "Practice exercises"
+        ]
+    },
+    {
+        "name": "Yoga and Meditation for Stress Relief",
+        "features": [
+            "Self-assessment tools",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Introduction to Geology",
+        "features": [
+            "Real-world case studies",
+            "Group projects"
+        ]
+    },
+    {
+        "name": "Data Visualization with Tableau",
+        "features": [
+            "Advanced analytics",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Creative Storytelling",
+        "features": [
+            "Interactive lectures",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Introduction to Environmental Engineering",
+        "features": [
+            "Cross-disciplinary content",
+            "Community support"
+        ]
+    },
+    {
+        "name": "Digital Music Production Techniques",
+        "features": [
+            "Interactive exercises",
+            "Live webinars"
+        ]
+    },
+    {
+        "name": "Introduction to Quantum Physics",
+        "features": [
+            "Research opportunities",
+            "Peer mentoring"
+        ]
+    },
+    {
+        "name": "Personal Finance and Investment",
+        "features": [
+            "Career guidance",
+            "Self-assessment tools"
+        ]
+    },
+    {
+        "name": "Art History Through the Ages",
+        "features": [
+            "Multimedia content",
+            "Interactive dashboards"
+        ]
+    },
+    {
+        "name": "Introduction to Machine Learning",
+        "features": [
+            "Real-world case studies",
+            "Coding challenges"
+        ]
+    },
+    {
+        "name": "Creative Advertising Strategies",
+        "features": [
+            "Interactive timelines",
+            "Gamification elements"
+        ]
+    },
+    {
+        "name": "Introduction to Cybersecurity",
+        "features": [
+            "Advanced analytics",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Photography Editing and Retouching",
+        "features": [
+            "Access to additional resources",
+            "Practice exercises"
+        ]
+    },
+    {
+        "name": "Introduction to Graphic Design",
+        "features": [
+            "Interactive exercises",
+            "Peer mentoring"
+        ]
+    },
+    {
+        "name": "Digital Marketing Analytics",
+        "features": [
+            "Self-paced learning",
+            "Live webinars"
+        ]
+    },
+    {
+        "name": "Introduction to Artificial Intelligence",
+        "features": [
+            "Research opportunities",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Creative Video Production",
+        "features": [
+            "Career guidance",
+            "Group projects"
+        ]
+    },
+    {
+        "name": "Introduction to Renewable Energy",
+        "features": [
+            "Interactive dashboards",
+            "Community support"
+        ]
+    },
+    {
+        "name": "Digital Illustration Techniques",
+        "features": [
+            "Interactive lectures",
+            "Coding challenges"
+        ]
+    },
+    {
+        "name": "Introduction to Big Data",
+        "features": [
+            "Advanced analytics",
+            "Interactive timelines"
+        ]
+    },
+    {
+        "name": "Personal Development and Goal Setting",
+        "features": [
+            "Self-assessment quizzes",
+            "Discussion forums"
+        ]
+    },
+    {
+        "name": "Introduction to Astronomy",
+        "features": [
+            "Multimedia content",
+            "Access to additional resources"
+        ]
+    },
+    {
+        "name": "Introduction to Robotics",
+        "features": [
+            "Virtual reality experiences",
+            "Career guidance"
+        ]
+    },
+    {
+        "name": "Introduction to Psychology",
+        "features": [
+            "Self-reflection journals",
+            "Live webinars"
+        ]
+    },
+    {
+        "name": "Digital Marketing Strategy",
+        "features": [
+            "Interactive exercises",
+            "Research opportunities"
+        ]
+    },
+    {
+        "name": "Introduction to Game Development",
+        "features": [
+            "Gamification elements",
+            "Certificates of completion"
+        ]
+    },
+    {
+        "name": "Introduction to Data Analytics",
+        "features": [
+            "Advanced analytics",
+            "Coding challenges"
+        ]
+    },
+    {
+        "name": "Introduction to Art History",
+        "features": [
+            "Multimedia content",
+            "Interactive timelines"
+        ]
+    },
+    {
+        "name": "Introduction to Cryptocurrency",
+        "features": [
+            "Access to additional resources",
+            "Career guidance"
+        ]
+    }
+]

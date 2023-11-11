@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "knn-algorithm"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Mio <oliver.mio@carma.com.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pydantic = "^2.3.0"
+numpy = "^1.26.0"
+sklearn = "^0.0.post9"
+scikit-learn = "^1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  service:
+    image: software-studio
+    container_name: software-studio-api
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+      target: dev
+    working_dir: /app
+    ports:
+      - 5000:5000
+      - 5001:5001
+      - 5678:5678
+    env_file:
+      - ../.env
+    volumes:
+      - ../src:/app
+    entrypoint:
+      [
+        "python3",
+        "-m",
+        "debugpy",
+        "--listen",
+        "0.0.0.0:5678",
+        "-m",
+        "uvicorn",
+        "app:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "5000",
+        "--reload",
+      ]
