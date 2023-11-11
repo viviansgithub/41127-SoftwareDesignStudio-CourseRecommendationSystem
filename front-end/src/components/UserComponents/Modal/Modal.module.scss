@@ -1,0 +1,11 @@
+.card {
+  width: 400px;
+  max-width: 90vw;
+  background-color: rgb(var(--foreground));
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 400px) {
+    border-radius: 0px;
+  }
+}

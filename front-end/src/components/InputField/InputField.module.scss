@@ -1,0 +1,97 @@
+/* Base styles */
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.inputContainer.inline {
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Label styles */
+.inputContainer label {
+  color: rgba(var(--light-accent), 0.7);
+  font-size: 16px;
+  left: 12px;
+  line-height: 1;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(0, 18px) scale(1);
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.inputContainer:focus-within label,
+.inputContainer .filled {
+  color: rgba(var(--light-accent), 0.75);
+  transform: translate(-2px, 8px) scale(0.75);
+}
+
+/* Input styles */
+.inputContainer input {
+  background-color: rgba(var(--background), 0.8);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 44px;
+  line-height: 1;
+  outline: none;
+  padding: 18px 12px 2px 12px;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.inputContainer input:focus {
+  border-color: rgba(var(--light-accent), 0.7);
+  box-shadow: 0 0 0 2px rgba(var(--light-accent), 0.8);
+}
+
+/* Browser-specific input styles */
+.inputContainer input::-webkit-outer-spin-button,
+.inputContainer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Select styles */
+.inputContainer select {
+  appearance: none;
+  background-color: rgba(var(--background), 0.8);
+  background-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 48px;
+  line-height: 1;
+  outline: none;
+  padding: 18px 12px 2px 12px;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  width: 100%;
+}
+
+.inputContainer select:focus {
+  box-shadow: 0 0 0 2px rgba(var(--light-accent), 0.8);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .inputContainer input,
+  .inputContainer select {
+    font-size: 10px;
+    height: 32px;
+    padding: 10px 6px 2px 6px;
+  }
+
+  .inputContainer label {
+    font-size: 14px;
+    transform: translate(-2px, 20px) scale(0.8);
+  }
+
+  .inputContainer:focus-within label,
+  .inputContainer .filled {
+    font-size: 12px;
+    transform: translate(-2px, 10px) scale(0.75);
+  }
+}

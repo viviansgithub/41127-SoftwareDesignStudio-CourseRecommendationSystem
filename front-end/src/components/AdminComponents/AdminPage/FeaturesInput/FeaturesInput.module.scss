@@ -1,0 +1,93 @@
+.tagInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+
+  Button {
+    margin-left: 10px;
+    align-self: center;
+  }
+}
+
+.inputContainer select {
+  flex: 1;
+  height: 44px;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 16px;
+  line-height: 1;
+  outline: none;
+  box-shadow: none;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  color: black;
+  background-color: rgba(var(--background), 0.8);
+  border: 1px solid #ddd;
+  appearance: none;
+}
+
+.inputContainer select {
+  box-shadow: 0 0 0 2px #79b1ff;
+  width: 400px;
+}
+
+.dropDown {
+  width: 600px;
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  color: rgba(var(--light-accent), 0.9);
+  button {
+    font-size: 18px;
+    padding-left: 4px;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+.tag {
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  background-color: rgba(var(--heavy-accent));
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .inputContainer select {
+    height: 32px;
+    padding: 8px 6px;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .tagContainer button {
+    padding-left: 0px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+.userContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.userHeader {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  font-weight: 500;
+  color: rgb(var(--light-accent));
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .userContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .buttonContainer {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

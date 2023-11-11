@@ -1,0 +1,26 @@
+.pagination {
+  align-items: center;
+  background-color: rgb(var(--background));
+  border-top: 1px solid rgba(var(--light-accent), 0.2);
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  button {
+    margin: 0 4px;
+    padding: 8px 16px;
+
+    &.active {
+      background-color: rgba(var(--heavy-accent));
+      border: 1px solid rgba(var(--light-accent), 0.2);
+
+      &:hover {
+        background-color: rgba(var(--heavy-accent), 0.9);
+      }
+    }
+  }
+}

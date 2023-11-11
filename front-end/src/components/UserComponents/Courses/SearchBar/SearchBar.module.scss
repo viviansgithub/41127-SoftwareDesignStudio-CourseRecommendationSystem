@@ -1,0 +1,52 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommendButton {
+  width: 180px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.recommendButton:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.activeRecommendButton {
+  background-color: rgba(var(--heavy-accent));
+  color: var(--foreground);
+  width: 180px;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+  transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.activeRecommendButton:hover {
+  background-color: rgba(var(--heavy-accent), 0.9);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.searchInput {
+  flex-grow: 1;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border-bottom: 2px solid rgb(var(--light-accent));
+  font-size: 16px;
+  outline: none;
+  transition: border-bottom 0.3s ease;
+}
+
+.searchInput:focus {
+  border-bottom: 2px solid rgb(var(--highlight));
+}
+
+.searchInput::placeholder {
+  color: #bbb;
+}

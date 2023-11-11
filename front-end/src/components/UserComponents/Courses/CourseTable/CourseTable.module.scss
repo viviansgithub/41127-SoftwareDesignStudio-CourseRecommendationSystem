@@ -1,0 +1,65 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgb(var(--foreground));
+  color: black;
+}
+
+.table th,
+.table td {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: rgb(var(--heavy-accent));
+  color: rgb(var(--foreground));
+}
+
+.table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.table tbody td {
+  text-align: center;
+}
+
+.table tbody td:first-child {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .table th,
+  .table td {
+    padding: 12px;
+  }
+}
+
+$column-widths: 14.4%, 10%, 14.4%, 10.8%, 4.5%, 10.8%, 10.8%, 3.6%, 7.2%, 6.4%;
+
+@for $i from 1 through length($column-widths) {
+  .table th:nth-child(#{$i}),
+  .table td:nth-child(#{$i}) {
+    width: nth($column-widths, $i);
+  }
+}
+
+@media (max-width: 800px) {
+  $mobile-column-widths: 20%, 15%, 15%, 15%, 10%, 15%, 10%;
+
+  @for $i from 1 through length($mobile-column-widths) {
+    .table th:nth-child(#{$i}),
+    .table td:nth-child(#{$i}) {
+      width: nth($mobile-column-widths, $i);
+    }
+  }
+}

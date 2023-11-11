@@ -1,0 +1,67 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 90vh;
+}
+
+.topRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.profileInfo,
+.profileInterests {
+  width: 75%;
+  height: 50vh;
+}
+
+.profileCourses {
+  width: 100%;
+  height: 50vh;
+}
+
+.profileInfo,
+.profileCourses,
+.profileInterests {
+  background-color: rgb(var(--foreground));
+  font-size: 16px;
+  color: rgb(var(--heavy-accent));
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profileInfo h2,
+.profileCourses h2,
+.profileInterests h2 {
+  font-size: 24px;
+  color: rgb(var(--dark-accent));
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

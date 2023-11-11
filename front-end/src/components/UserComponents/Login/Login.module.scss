@@ -1,0 +1,59 @@
+.root {
+  font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(var(--foreground), 0.1);
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(var(--light-accent));
+}
+
+.card {
+  width: 400px;
+  max-width: 90vw;
+  background-color: rgb(var(--foreground));
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 400px) {
+    border-radius: 0px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  color: rgb(var(--light-accent));
+  font-weight: 300;
+  font-size: 1rem;
+
+  input,
+  button {
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+  }
+}
+
+.signUp {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: medium;
+  padding-top: 20px;
+}
+
+.error {
+  color: red;
+}
